@@ -16,12 +16,12 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style/style.css")
+local_css("style.css")
 
 lottie_coding = load_lottieurl("https://lottie.host/86383fc2-054b-493d-9e44-4b43250ab63d/np1Ryx6RcQ.json")
-img_py = Image.open("images/thumbnail.png")
-img_i = Image.open("images/thumbnail2.png")
-img_ca = Image.open("images/thumbnail3.png")
+img_py = Image.open("thumbnail.png")
+img_i = Image.open("thumbnail2.png")
+img_ca = Image.open("thumbnail3.png")
 
 
 # Header
